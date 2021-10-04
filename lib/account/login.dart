@@ -14,6 +14,8 @@ class _LoginState extends State<Login> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+
+
       // appBar: AppBar(
       //   backgroundColor: Colors.transparent,
       //   elevation: 0,
@@ -30,6 +32,9 @@ class _LoginState extends State<Login> {
       //     )
       //   ],
       // ),
+
+
+
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(image: AssetImage('assets/SS.png'),fit: BoxFit.cover)
